@@ -41,7 +41,9 @@ h6,
 
 .gradient-text {
     background: linear-gradient(to bottom, #023e8a, #90e0ef);
+    background-clip: text;
     -webkit-background-clip: text;
+    color: transparent;
     -webkit-text-fill-color: transparent;
 }
 
